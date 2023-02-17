@@ -1,6 +1,6 @@
 {
   "name": "type-guard-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "类型守卫",
   "author": "ruihuag",
   "module": "lib/index.esm.js",
@@ -33,6 +33,7 @@
   "homepage": "",
   "keywords": [],
   "devDependencies": {
+    "0log": "^0.0.1",
     "@babel/core": "^7.20.12",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",

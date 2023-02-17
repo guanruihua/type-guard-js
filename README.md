@@ -1,3 +1,3 @@
-# NPM-Util-Template
+# type-guard-js
 
-> NPM 工具方法包模板
+> 类型守卫

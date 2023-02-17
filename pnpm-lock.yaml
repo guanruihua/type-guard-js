@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  0log: ^0.0.1
   '@babel/core': ^7.20.12
   '@commitlint/cli': ^17.1.2
   '@commitlint/config-conventional': ^17.1.0
@@ -26,6 +27,7 @@ specifiers:
   unit-testing-js: 0.4.0
 
 devDependencies:
+  0log: 0.0.1
   '@babel/core': 7.20.12
   '@commitlint/cli': 17.4.3
   '@commitlint/config-conventional': 17.4.3
@@ -51,6 +53,10 @@ devDependencies:
   unit-testing-js: 0.4.0
 
 packages:
+
+  /0log/0.0.1:
+    resolution: {integrity: sha512-wsw1Tcm7o6CPdf2QELdvdHvwV/8kL0ZoPLMSx/UEy/mIqaFANpBym/+vGCEV8zpgF4fls6vami7AJJhAtgE3qQ==}
+    dev: true
 
   /@ampproject/remapping/2.2.0:
     resolution: {integrity: sha512-qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w==}
