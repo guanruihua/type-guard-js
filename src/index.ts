@@ -1,6 +1,6 @@
-export * from './base'
-export * from './reference '
-
-export function guard() {
-	return true
-}
+export * from './bool'
+export * from './array'
+export * from './function'
+export * from './object'
+export * from './string'
+export * from './number'

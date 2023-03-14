@@ -1,14 +1,4 @@
-import { isArray, isAsyncFunction, isFunction, isObject } from 'check-it-type'
-
-export function ArrayGuard<T>(value: T[], defaultValue = []): T[] {
-	if (isArray(value)) return value
-	return defaultValue
-}
-
-export function ObjectGuard<T extends Record<string, unknown>>(value: T, defaultValue = {}): T {
-	if (isObject(value)) return value
-	return defaultValue as T
-}
+import { isAsyncFunction, isFunction } from 'check-it-type'
 
 export type FunctionType = (...args: unknown[]) => unknown
 

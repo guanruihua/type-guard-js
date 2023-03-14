@@ -1,6 +1,6 @@
 {
   "name": "type-guard-js",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "类型守卫",
   "author": "ruihuag",
   "module": "lib/index.esm.js",
@@ -10,7 +10,7 @@
   "typings": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "test": "ts-node-dev --respawn --transpile-only ./test/index.ts",
+    "test": "ts-node-dev --respawn --transpile-only ./src/__test__/index.ts",
     "build": "npx rollup -c ./config/rollup.build.ts",
     "prepare": "husky install",
     "commitlint": "commitlint -e"
